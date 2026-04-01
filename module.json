@@ -1,0 +1,101 @@
+{
+  "id": "der-schleier-der-tausend-luegen",
+  "title": "Der Schleier der Tausend Lügen",
+  "description": "Ein episches DSA-5-Abenteuermodul in den Tulamidenlanden. 6 Kapitel, 15–20 Sitzungen, für 3–5 Spieler ab 1100 AP. Enthält über 47 NPCs mit vollständigen Statblocks, 22 Handouts, Zufallsbegegnungstabellen, Händlerlisten und einen vielschichtigen Metaplot um sieben mystische Siegel und den Erzdschinn Azrafael.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": ""
+  },
+  "authors": [
+    {
+      "name": "Kampagnenautor",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dsa5",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "actors",
+      "label": "Der Schleier – NSCs & Kreaturen",
+      "path": "packs/actors.db",
+      "type": "Actor",
+      "ownership": {
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "items",
+      "label": "Der Schleier – Gegenstände",
+      "path": "packs/items.db",
+      "type": "Item",
+      "ownership": {
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "journal",
+      "label": "Der Schleier – Journaleinträge",
+      "path": "packs/journal.db",
+      "type": "JournalEntry",
+      "ownership": {
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "scenes",
+      "label": "Der Schleier – Szenen",
+      "path": "packs/scenes.db",
+      "type": "Scene",
+      "ownership": {
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "tables",
+      "label": "Der Schleier – Zufallstabellen",
+      "path": "packs/tables.db",
+      "type": "RollTable",
+      "ownership": {
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "macros",
+      "label": "Der Schleier – Makros",
+      "path": "packs/macros.db",
+      "type": "Macro",
+      "ownership": {
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "playlists",
+      "label": "Der Schleier – Playlisten",
+      "path": "packs/playlists.db",
+      "type": "Playlist",
+      "ownership": {
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "scripts/init.js"
+  ]
+}
