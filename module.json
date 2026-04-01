@@ -97,5 +97,8 @@
   ],
   "esmodules": [
     "scripts/init.js"
-  ]
+  ],
+  "url": "https://github.com/decipher2k/der-schleier-der-tausen-luegen",
+  "manifest": "https://raw.githubusercontent.com/decipher2k/der-schleier-der-tausen-luegen/refs/heads/main/module.json",
+  "readme": "https://raw.githubusercontent.com/decipher2k/der-schleier-der-tausen-luegen/refs/heads/main/README.md"
 }
